@@ -1,0 +1,588 @@
+[
+  {
+    "product_id": "P001",
+    "title_en": "UltraLight Pro Stroller",
+    "title_ar": "عربة الأطفال الخفيفة برو",
+    "data_tier": "rich",
+    "description_en": "The UltraLight Pro Stroller weighs only 4.2kg, making it the lightest stroller in its class. Suitable for babies from 0 to 36 months. Features a one-hand fold mechanism and fits all standard car seats. Premium aluminum frame guarantees durability for years of use.",
+    "reviews": [
+      {"review_id": "P001_r01", "text": "This stroller is incredibly heavy! I was shocked when I picked it up. Felt more like 7kg at least.", "language": "en", "rating": 2},
+      {"review_id": "P001_r02", "text": "ثقيلة جداً، لا تناسب السفر أبداً. وزنها أكثر بكثير مما هو مذكور في الوصف", "language": "ar", "rating": 1},
+      {"review_id": "P001_r03", "text": "The one-hand fold is a lie. You need both hands and a lot of force to fold this thing.", "language": "en", "rating": 2},
+      {"review_id": "P001_r04", "text": "My 2.5 year old does not fit in this at all. Way too small for a 36-month child.", "language": "en", "rating": 2},
+      {"review_id": "P001_r05", "text": "Does not fit my Cybex car seat despite what the seller claims.", "language": "en", "rating": 1},
+      {"review_id": "P001_r06", "text": "لا تتناسب مع مقاعد السيارة القياسية كما هو مذكور. اضطررت لإعادتها.", "language": "ar", "rating": 1},
+      {"review_id": "P001_r07", "text": "Frame started rusting after 3 months. Premium aluminum? I think not.", "language": "en", "rating": 1},
+      {"review_id": "P001_r08", "text": "Very heavy for travel. Advertisement says lightweight but reality is different.", "language": "en", "rating": 2},
+      {"review_id": "P001_r09", "text": "Cute design but honestly too heavy for daily use.", "language": "en", "rating": 3},
+      {"review_id": "P001_r10", "text": "Returned it. Weight was completely misrepresented.", "language": "en", "rating": 1}
+    ],
+    "qa_pairs": [
+      {"qa_id": "P001_q01", "question": "What is the exact weight of this stroller?", "seller_answer": "The stroller weighs 4.2kg as listed.", "buyer_answer": "I weighed mine at home — it was 6.8kg with the accessories.", "answers_agree": false},
+      {"qa_id": "P001_q02", "question": "Does it fit Cybex Aton car seat?", "seller_answer": "Yes it is compatible with all standard car seats.", "buyer_answer": "No it did not fit my Cybex at all.", "answers_agree": false},
+      {"qa_id": "P001_q03", "question": "Is the fold really one-handed?", "seller_answer": "Yes one-hand fold is a key feature.", "buyer_answer": "Absolutely not one-handed. Needs two hands.", "answers_agree": false},
+      {"qa_id": "P001_q04", "question": "What is the maximum child age?", "seller_answer": "Suitable up to 36 months.", "buyer_answer": "My 30-month-old was already too big for it.", "answers_agree": false},
+      {"qa_id": "P001_q05", "question": "Is the frame rust-proof?", "seller_answer": "Premium aluminum frame is fully rust-proof.", "buyer_answer": "Mine started rusting after a few months.", "answers_agree": false}
+    ],
+    "return_reasons": [
+      "Heavier than described",
+      "Car seat incompatible",
+      "Fold mechanism difficult",
+      "Child too large despite age claim",
+      "Frame quality poor"
+    ],
+    "seed_conflicts": [
+      {"field": "weight", "description_claim": "weighs only 4.2kg", "customer_claim": "felt more like 7kg", "conflict_type": "factual_contradiction"},
+      {"field": "car_seat_compatibility", "description_claim": "fits all standard car seats", "customer_claim": "does not fit Cybex car seat", "conflict_type": "factual_contradiction"},
+      {"field": "fold_mechanism", "description_claim": "one-hand fold mechanism", "customer_claim": "needs both hands to fold", "conflict_type": "factual_contradiction"},
+      {"field": "age_range", "description_claim": "suitable for 0 to 36 months", "customer_claim": "too small for 30-month-old", "conflict_type": "factual_contradiction"}
+    ]
+  },
+  {
+    "product_id": "P002",
+    "title_en": "NatureSoft Baby Monitor Pro",
+    "title_ar": "جهاز مراقبة الطفل نيتشر سوفت برو",
+    "data_tier": "rich",
+    "description_en": "Crystal clear 1080p video with night vision up to 10 meters. Battery lasts 24 hours on a single charge. Range covers up to 300 meters. Temperature sensor alerts you when nursery is too hot or cold. Two-way audio for soothing your baby remotely.",
+    "reviews": [
+      {"review_id": "P002_r01", "text": "Battery dies after 4 hours maximum. 24 hours is a complete fabrication.", "language": "en", "rating": 1},
+      {"review_id": "P002_r02", "text": "البطارية لا تدوم أكثر من 5 ساعات. الوصف مبالغ فيه جداً", "language": "ar", "rating": 1},
+      {"review_id": "P002_r03", "text": "Range is maybe 30 meters not 300. Signal drops when I go to the kitchen.", "language": "en", "rating": 2},
+      {"review_id": "P002_r04", "text": "Night vision is genuinely excellent. Very clear at night.", "language": "en", "rating": 5},
+      {"review_id": "P002_r05", "text": "Temperature sensor works perfectly. Got alerts when room was too warm.", "language": "en", "rating": 5},
+      {"review_id": "P002_r06", "text": "Two-way audio is great, baby responds to my voice.", "language": "en", "rating": 5},
+      {"review_id": "P002_r07", "text": "Video quality is excellent as described. No complaints there.", "language": "en", "rating": 4},
+      {"review_id": "P002_r08", "text": "Battery life is the only problem. Everything else is great.", "language": "en", "rating": 3},
+      {"review_id": "P002_r09", "text": "نطاق الإشارة ضعيف جداً مقارنة بما هو مذكور", "language": "ar", "rating": 2},
+      {"review_id": "P002_r10", "text": "Returned due to battery not lasting even through one night.", "language": "en", "rating": 1}
+    ],
+    "qa_pairs": [
+      {"qa_id": "P002_q01", "question": "How long does the battery really last?", "seller_answer": "Battery lasts up to 24 hours as listed.", "buyer_answer": "Maximum 4 to 5 hours in my experience.", "answers_agree": false},
+      {"qa_id": "P002_q02", "question": "What is the actual wireless range?", "seller_answer": "Covers up to 300 meters open range.", "buyer_answer": "Signal dropped after about 30 meters in my house.", "answers_agree": false},
+      {"qa_id": "P002_q03", "question": "Is the night vision good?", "seller_answer": "Crystal clear night vision up to 10 meters.", "buyer_answer": "Yes night vision is actually very good.", "answers_agree": true},
+      {"qa_id": "P002_q04", "question": "Does the temperature sensor work?", "seller_answer": "Yes fully functional temperature alerts.", "buyer_answer": "Temperature sensor works great for us.", "answers_agree": true},
+      {"qa_id": "P002_q05", "question": "Does two-way audio work well?", "seller_answer": "Yes crystal clear two-way audio.", "buyer_answer": "Works perfectly, baby hears me clearly.", "answers_agree": true}
+    ],
+    "return_reasons": [
+      "Battery life much shorter than advertised",
+      "Range insufficient for home use",
+      "Expected 24 hour battery"
+    ],
+    "seed_conflicts": [
+      {"field": "battery_life", "description_claim": "battery lasts 24 hours", "customer_claim": "battery dies after 4 to 5 hours", "conflict_type": "factual_contradiction"},
+      {"field": "wireless_range", "description_claim": "range up to 300 meters", "customer_claim": "signal drops after 30 meters", "conflict_type": "factual_contradiction"}
+    ]
+  },
+  {
+    "product_id": "P003",
+    "title_en": "PureFlow Electric Breast Pump",
+    "title_ar": "شفاطة الحليب الكهربائية بيور فلو",
+    "data_tier": "rich",
+    "description_en": "Hospital-grade suction with 9 adjustable levels. Whisper-quiet motor under 40 decibels. Fully portable with built-in rechargeable battery lasting 3 hours. BPA-free materials throughout. Comes with 4 flange sizes to fit all mothers.",
+    "reviews": [
+      {"review_id": "P003_r01", "text": "This is NOT whisper quiet. My husband could hear it from another room.", "language": "en", "rating": 2},
+      {"review_id": "P003_r02", "text": "صوتها عالٍ جداً ولا يمكن استخدامها بجانب الطفل النائم", "language": "ar", "rating": 2},
+      {"review_id": "P003_r03", "text": "Only 3 flange sizes not 4 as advertised. The smallest was missing.", "language": "en", "rating": 3},
+      {"review_id": "P003_r04", "text": "Battery lasts about 2 hours not 3. Still decent for a session.", "language": "en", "rating": 3},
+      {"review_id": "P003_r05", "text": "Suction is genuinely strong and hospital-grade feeling.", "language": "en", "rating": 5},
+      {"review_id": "P003_r06", "text": "All 9 suction levels work well. Good range from gentle to strong.", "language": "en", "rating": 4},
+      {"review_id": "P003_r07", "text": "BPA free confirmed, I checked the materials myself.", "language": "en", "rating": 5},
+      {"review_id": "P003_r08", "text": "Loud motor but effective pump. Worth it for the suction.", "language": "en", "rating": 4},
+      {"review_id": "P003_r09", "text": "الشفاطة فعّالة لكن الضوضاء مزعجة أكثر مما توقعت", "language": "ar", "rating": 3},
+      {"review_id": "P003_r10", "text": "Works well overall. Noise is the only real downside.", "language": "en", "rating": 4}
+    ],
+    "qa_pairs": [
+      {"qa_id": "P003_q01", "question": "Is it really quiet?", "seller_answer": "Yes under 40 decibels, very quiet.", "buyer_answer": "No it is quite loud, audible from another room.", "answers_agree": false},
+      {"qa_id": "P003_q02", "question": "How many flange sizes are included?", "seller_answer": "4 flange sizes included.", "buyer_answer": "I only received 3 sizes.", "answers_agree": false},
+      {"qa_id": "P003_q03", "question": "How long does battery last?", "seller_answer": "3 hours per charge.", "buyer_answer": "About 2 hours for me.", "answers_agree": false},
+      {"qa_id": "P003_q04", "question": "Is suction strong enough?", "seller_answer": "Hospital-grade suction with 9 levels.", "buyer_answer": "Yes suction is excellent and strong.", "answers_agree": true},
+      {"qa_id": "P003_q05", "question": "Is it BPA free?", "seller_answer": "Fully BPA-free materials.", "buyer_answer": "Yes confirmed BPA free.", "answers_agree": true}
+    ],
+    "return_reasons": [
+      "Too loud for use near sleeping baby",
+      "Missing flange size",
+      "Battery shorter than advertised"
+    ],
+    "seed_conflicts": [
+      {"field": "noise_level", "description_claim": "whisper-quiet motor under 40 decibels", "customer_claim": "audible from another room", "conflict_type": "factual_contradiction"},
+      {"field": "flange_sizes", "description_claim": "comes with 4 flange sizes", "customer_claim": "only 3 flange sizes received", "conflict_type": "factual_contradiction"},
+      {"field": "battery_life", "description_claim": "battery lasting 3 hours", "customer_claim": "battery lasts about 2 hours", "conflict_type": "factual_contradiction"}
+    ]
+  },
+  {
+    "product_id": "P004",
+    "title_en": "DreamSleep Bassinet",
+    "title_ar": "سرير الأطفال دريم سليب",
+    "data_tier": "rich",
+    "description_en": "Safe sleep solution for newborns up to 9kg. Breathable mesh sides for optimal airflow. Folds flat in 3 seconds for travel. Mattress included meets all international safety standards. Suitable from birth to 6 months.",
+    "reviews": [
+      {"review_id": "P004_r01", "text": "My baby outgrew this at 4 months. 6 months claim is exaggerated.", "language": "en", "rating": 3},
+      {"review_id": "P004_r02", "text": "Takes more like 30 seconds to fold, not 3 seconds. But still foldable.", "language": "en", "rating": 3},
+      {"review_id": "P004_r03", "text": "Mesh sides are genuinely breathable and baby slept comfortably.", "language": "en", "rating": 5},
+      {"review_id": "P004_r04", "text": "الشبكة الجانبية ممتازة للتهوية، طفلتي نامت بشكل رائع", "language": "ar", "rating": 5},
+      {"review_id": "P004_r05", "text": "Mattress quality is excellent and firm as required for newborn safety.", "language": "en", "rating": 5},
+      {"review_id": "P004_r06", "text": "Very stable, no wobbling. Baby feels secure.", "language": "en", "rating": 5},
+      {"review_id": "P004_r07", "text": "طفلي تجاوز الوزن المسموح قبل 5 أشهر، وزن 9 كيلو يُنتهى منه بسرعة", "language": "ar", "rating": 3},
+      {"review_id": "P004_r08", "text": "Folding is good but definitely not 3 seconds. More like 20-30.", "language": "en", "rating": 4},
+      {"review_id": "P004_r09", "text": "Great bassinet overall. Breathable and safe.", "language": "en", "rating": 5},
+      {"review_id": "P004_r10", "text": "Used it until 5 months then baby was too big. Good product.", "language": "en", "rating": 4}
+    ],
+    "qa_pairs": [
+      {"qa_id": "P004_q01", "question": "How long can baby use this?", "seller_answer": "Suitable from birth to 6 months.", "buyer_answer": "My baby outgrew it at 4 to 5 months.", "answers_agree": false},
+      {"qa_id": "P004_q02", "question": "Does it really fold in 3 seconds?", "seller_answer": "Yes folds flat in 3 seconds.", "buyer_answer": "More like 20 to 30 seconds but still easy.", "answers_agree": false},
+      {"qa_id": "P004_q03", "question": "Is the mattress safe for newborns?", "seller_answer": "Meets all international safety standards.", "buyer_answer": "Yes firm and safe, I checked the certifications.", "answers_agree": true},
+      {"qa_id": "P004_q04", "question": "Are the mesh sides breathable?", "seller_answer": "Optimal breathable mesh on all sides.", "buyer_answer": "Yes very breathable, great for airflow.", "answers_agree": true},
+      {"qa_id": "P004_q05", "question": "What is the weight limit?", "seller_answer": "Up to 9kg.", "buyer_answer": "Yes 9kg limit is accurate.", "answers_agree": true}
+    ],
+    "return_reasons": [
+      "Baby outgrew before 6 months",
+      "Fold mechanism slower than advertised"
+    ],
+    "seed_conflicts": [
+      {"field": "age_suitability", "description_claim": "suitable from birth to 6 months", "customer_claim": "baby outgrew at 4 months", "conflict_type": "factual_contradiction"},
+      {"field": "fold_speed", "description_claim": "folds flat in 3 seconds", "customer_claim": "takes 20 to 30 seconds to fold", "conflict_type": "factual_contradiction"}
+    ]
+  },
+  {
+    "product_id": "P005",
+    "title_en": "SafeStep Baby Gate",
+    "title_ar": "بوابة الأمان سيف ستيب",
+    "data_tier": "rich",
+    "description_en": "Pressure-mounted safety gate fits openings from 75cm to 120cm. Opens with one hand for adult convenience. Steel construction rated for 10 years of use. Suitable for top and bottom of stairs. No tools required for installation.",
+    "reviews": [
+      {"review_id": "P005_r01", "text": "Absolutely do NOT use this at top of stairs. It slipped and nearly caused an accident.", "language": "en", "rating": 1},
+      {"review_id": "P005_r02", "text": "تحذير: لا تستخدموها عند قمة الدرج! انزلقت وكادت تسبب حادثة", "language": "ar", "rating": 1},
+      {"review_id": "P005_r03", "text": "Does not fit my 118cm opening. Kept slipping even within stated range.", "language": "en", "rating": 2},
+      {"review_id": "P005_r04", "text": "One-hand open works perfectly. Very convenient.", "language": "en", "rating": 5},
+      {"review_id": "P005_r05", "text": "Steel feels solid and durable. Good build quality.", "language": "en", "rating": 4},
+      {"review_id": "P005_r06", "text": "Easy to install with no tools. Took 5 minutes.", "language": "en", "rating": 5},
+      {"review_id": "P005_r07", "text": "Works great at bottom of stairs. Would not risk top of stairs with pressure mount.", "language": "en", "rating": 4},
+      {"review_id": "P005_r08", "text": "Installation is easy but do not trust it for stairs top.", "language": "en", "rating": 3},
+      {"review_id": "P005_r09", "text": "البوابة ممتازة في أسفل الدرج فقط. لا تستخدمها في القمة.", "language": "ar", "rating": 3},
+      {"review_id": "P005_r10", "text": "Good gate but seller should not claim it is safe for top of stairs.", "language": "en", "rating": 3}
+    ],
+    "qa_pairs": [
+      {"qa_id": "P005_q01", "question": "Is this safe for top of stairs?", "seller_answer": "Yes suitable for top and bottom of stairs.", "buyer_answer": "Absolutely not safe for top of stairs. Pressure mounts can slip.", "answers_agree": false},
+      {"qa_id": "P005_q02", "question": "What openings does it fit?", "seller_answer": "Fits 75cm to 120cm openings.", "buyer_answer": "My 118cm opening was at the limit and it kept slipping.", "answers_agree": false},
+      {"qa_id": "P005_q03", "question": "Is one-hand operation easy?", "seller_answer": "Yes opens with one hand easily.", "buyer_answer": "Yes very easy one-hand operation.", "answers_agree": true},
+      {"qa_id": "P005_q04", "question": "Does it need tools to install?", "seller_answer": "No tools required.", "buyer_answer": "Correct, no tools needed, very easy.", "answers_agree": true},
+      {"qa_id": "P005_q05", "question": "Is the steel frame durable?", "seller_answer": "Rated for 10 years of use.", "buyer_answer": "Feels solid and well built.", "answers_agree": true}
+    ],
+    "return_reasons": [
+      "Unsafe for top of stairs despite claim",
+      "Slipped in opening within stated range"
+    ],
+    "seed_conflicts": [
+      {"field": "stairs_suitability", "description_claim": "suitable for top and bottom of stairs", "customer_claim": "unsafe for top of stairs, pressure mount slips", "conflict_type": "safety_contradiction"},
+      {"field": "opening_range", "description_claim": "fits openings from 75cm to 120cm", "customer_claim": "slipped at 118cm opening within stated range", "conflict_type": "factual_contradiction"}
+    ]
+  },
+  {
+    "product_id": "P006",
+    "title_en": "CloudSoft Organic Cotton Swaddle Set",
+    "title_ar": "طقم القماط العضوي كلاود سوفت",
+    "data_tier": "rich",
+    "description_en": "100% GOTS certified organic cotton. Set of 4 swaddles each 120cm by 120cm. Pre-washed and ready to use from first day. Hypoallergenic and dermatologist tested. Machine washable at 60 degrees without shrinking.",
+    "reviews": [
+      {"review_id": "P006_r01", "text": "These shrank significantly after first wash at 60 degrees. Now much smaller than 120x120.", "language": "en", "rating": 2},
+      {"review_id": "P006_r02", "text": "انكمشت بعد أول غسيل رغم اتباع التعليمات. حجمها أصغر بكثير الآن", "language": "ar", "rating": 2},
+      {"review_id": "P006_r03", "text": "Incredibly soft. Baby loves being swaddled in these.", "language": "en", "rating": 5},
+      {"review_id": "P006_r04", "text": "ناعمة جداً على جلد الطفل. ممتازة للأطفال ذوي الجلد الحساس", "language": "ar", "rating": 5},
+      {"review_id": "P006_r05", "text": "Organic certification is genuine, checked the GOTS label.", "language": "en", "rating": 5},
+      {"review_id": "P006_r06", "text": "Hypoallergenic claim seems true, no reaction on my baby's sensitive skin.", "language": "en", "rating": 5},
+      {"review_id": "P006_r07", "text": "Shrank badly. Machine wash ruined the size.", "language": "en", "rating": 2},
+      {"review_id": "P006_r08", "text": "Beautiful prints and super soft but does shrink.", "language": "en", "rating": 3},
+      {"review_id": "P006_r09", "text": "Only received 3 swaddles in the package not 4.", "language": "en", "rating": 2},
+      {"review_id": "P006_r10", "text": "Love the softness but wash at 30 degrees only, ignore the 60 degree claim.", "language": "en", "rating": 3}
+    ],
+    "qa_pairs": [
+      {"qa_id": "P006_q01", "question": "Will it shrink in the wash?", "seller_answer": "No shrinking guaranteed at 60 degrees.", "buyer_answer": "Yes it shrank considerably after first wash.", "answers_agree": false},
+      {"qa_id": "P006_q02", "question": "How many swaddles in the set?", "seller_answer": "Set of 4 swaddles.", "buyer_answer": "I only received 3 in my package.", "answers_agree": false},
+      {"qa_id": "P006_q03", "question": "Is the organic certification real?", "seller_answer": "GOTS certified organic cotton.", "buyer_answer": "Yes the GOTS label is genuine.", "answers_agree": true},
+      {"qa_id": "P006_q04", "question": "Is it good for sensitive skin?", "seller_answer": "Hypoallergenic and dermatologist tested.", "buyer_answer": "Yes no reaction on my baby's sensitive skin.", "answers_agree": true},
+      {"qa_id": "P006_q05", "question": "Are they soft?", "seller_answer": "Premium soft organic cotton.", "buyer_answer": "Incredibly soft, best swaddles I have used.", "answers_agree": true}
+    ],
+    "return_reasons": [
+      "Shrinkage after washing",
+      "Missing item from set"
+    ],
+    "seed_conflicts": [
+      {"field": "wash_shrinkage", "description_claim": "machine washable at 60 degrees without shrinking", "customer_claim": "shrank significantly after first wash at 60 degrees", "conflict_type": "factual_contradiction"},
+      {"field": "quantity", "description_claim": "set of 4 swaddles", "customer_claim": "only 3 swaddles received", "conflict_type": "factual_contradiction"}
+    ]
+  },
+  {
+    "product_id": "P007",
+    "title_en": "NutriBlend Baby Food Maker",
+    "title_ar": "جهاز تحضير طعام الأطفال نيوتري بلند",
+    "data_tier": "rich",
+    "description_en": "All-in-one steam and blend system. Makes 8 portions in one batch. Heats food to safe temperature in under 8 minutes. BPA-free and dishwasher safe. Auto shut-off when water runs dry. Suitable for ages 4 months and above.",
+    "reviews": [
+      {"review_id": "P007_r01", "text": "Takes 15 to 20 minutes not 8. Much slower than advertised.", "language": "en", "rating": 3},
+      {"review_id": "P007_r02", "text": "يستغرق أكثر من 15 دقيقة للإنجاز وليس 8 دقائق كما هو مذكور", "language": "ar", "rating": 3},
+      {"review_id": "P007_r03", "text": "Makes maybe 5 to 6 portions not 8. Overfilled when trying for 8.", "language": "en", "rating": 3},
+      {"review_id": "P007_r04", "text": "Auto shut-off works great. Good safety feature.", "language": "en", "rating": 5},
+      {"review_id": "P007_r05", "text": "Dishwasher safe confirmed. Easy to clean.", "language": "en", "rating": 5},
+      {"review_id": "P007_r06", "text": "BPA free materials, I verified the certification.", "language": "en", "rating": 5},
+      {"review_id": "P007_r07", "text": "Blending result is very smooth. Great for 4 month old purees.", "language": "en", "rating": 5},
+      {"review_id": "P007_r08", "text": "Heating takes longer than stated but food quality is good.", "language": "en", "rating": 4},
+      {"review_id": "P007_r09", "text": "الجهاز ممتاز لكن الوقت الفعلي أطول من المُعلن عنه", "language": "ar", "rating": 4},
+      {"review_id": "P007_r10", "text": "Good machine overall. Timing claim is inaccurate but not a dealbreaker.", "language": "en", "rating": 4}
+    ],
+    "qa_pairs": [
+      {"qa_id": "P007_q01", "question": "How many minutes does it actually take?", "seller_answer": "Under 8 minutes for a full batch.", "buyer_answer": "15 to 20 minutes in my experience.", "answers_agree": false},
+      {"qa_id": "P007_q02", "question": "How many portions does one batch make?", "seller_answer": "8 portions per batch.", "buyer_answer": "More like 5 to 6 before it overfills.", "answers_agree": false},
+      {"qa_id": "P007_q03", "question": "Is auto shut-off reliable?", "seller_answer": "Yes auto shut-off activates when water runs dry.", "buyer_answer": "Yes works perfectly every time.", "answers_agree": true},
+      {"qa_id": "P007_q04", "question": "Is it dishwasher safe?", "seller_answer": "Fully dishwasher safe.", "buyer_answer": "Yes runs through dishwasher fine.", "answers_agree": true},
+      {"qa_id": "P007_q05", "question": "Is it BPA free?", "seller_answer": "Fully BPA-free.", "buyer_answer": "Yes confirmed BPA free.", "answers_agree": true}
+    ],
+    "return_reasons": [
+      "Heating time much longer than stated",
+      "Fewer portions than advertised"
+    ],
+    "seed_conflicts": [
+      {"field": "heating_time", "description_claim": "heats food in under 8 minutes", "customer_claim": "takes 15 to 20 minutes", "conflict_type": "factual_contradiction"},
+      {"field": "portion_count", "description_claim": "makes 8 portions in one batch", "customer_claim": "makes 5 to 6 portions before overfilling", "conflict_type": "factual_contradiction"}
+    ]
+  },
+  {
+    "product_id": "P008",
+    "title_en": "TinySteps Wooden Activity Cube",
+    "title_ar": "مكعب النشاط الخشبي تايني ستيبس",
+    "data_tier": "rich",
+    "description_en": "6-sided activity cube with 25 developmental activities. Made from sustainably sourced solid beech wood. Suitable for ages 12 months and above. Non-toxic paint certified by EN71 European safety standard. Develops fine motor skills and cognitive development.",
+    "reviews": [
+      {"review_id": "P008_r01", "text": "I count only 18 activities not 25. Several sides are repetitive.", "language": "en", "rating": 3},
+      {"review_id": "P008_r02", "text": "عدد الأنشطة أقل مما هو مذكور. عددتها بنفسي ووجدت 18 فقط", "language": "ar", "rating": 3},
+      {"review_id": "P008_r03", "text": "Wood quality is excellent. Solid and heavy as expected for beech.", "language": "en", "rating": 5},
+      {"review_id": "P008_r04", "text": "My 10-month-old loves it already. Works great before 12 months.", "language": "en", "rating": 5},
+      {"review_id": "P008_r05", "text": "Paint quality is great, no chipping after months of use.", "language": "en", "rating": 5},
+      {"review_id": "P008_r06", "text": "EN71 certification is genuine, checked the label.", "language": "en", "rating": 5},
+      {"review_id": "P008_r07", "text": "الخشب ممتاز والطلاء آمن تماماً للأطفال", "language": "ar", "rating": 5},
+      {"review_id": "P008_r08", "text": "Less than 25 activities but still a great toy.", "language": "en", "rating": 4},
+      {"review_id": "P008_r09", "text": "Great developmental toy. Baby has been using since 10 months.", "language": "en", "rating": 5},
+      {"review_id": "P008_r10", "text": "Activity count is misleading but product quality is top notch.", "language": "en", "rating": 4}
+    ],
+    "qa_pairs": [
+      {"qa_id": "P008_q01", "question": "How many activities does it actually have?", "seller_answer": "25 distinct developmental activities.", "buyer_answer": "I counted 18, several are repeated.", "answers_agree": false},
+      {"qa_id": "P008_q02", "question": "Can younger babies use it?", "seller_answer": "Suitable for 12 months and above.", "buyer_answer": "My 10-month-old uses it perfectly fine.", "answers_agree": false},
+      {"qa_id": "P008_q03", "question": "Is the wood real beech?", "seller_answer": "Sustainably sourced solid beech wood.", "buyer_answer": "Feels like solid wood, heavy and sturdy.", "answers_agree": true},
+      {"qa_id": "P008_q04", "question": "Is the paint safe?", "seller_answer": "EN71 certified non-toxic paint.", "buyer_answer": "Yes paint is safe and durable.", "answers_agree": true},
+      {"qa_id": "P008_q05", "question": "Is it good for development?", "seller_answer": "Develops fine motor and cognitive skills.", "buyer_answer": "Yes baby has improved significantly.", "answers_agree": true}
+    ],
+    "return_reasons": [
+      "Fewer activities than advertised"
+    ],
+    "seed_conflicts": [
+      {"field": "activity_count", "description_claim": "25 developmental activities", "customer_claim": "only 18 activities, several repeated", "conflict_type": "factual_contradiction"},
+      {"field": "minimum_age", "description_claim": "suitable for ages 12 months and above", "customer_claim": "works fine for 10-month-old", "conflict_type": "minor_discrepancy"}
+    ]
+  },
+  {
+    "product_id": "P009",
+    "title_en": "AquaPure Baby Bath Tub",
+    "title_ar": "حوض استحمام الطفل أكوا بيور",
+    "data_tier": "rich",
+    "description_en": "Ergonomic newborn bath tub with built-in temperature sensor. Holds up to 20 liters. Anti-slip base for safety. Suitable from birth to 2 years. Drains in under 30 seconds via quick-release plug.",
+    "reviews": [
+      {"review_id": "P009_r01", "text": "Temperature sensor stopped working after 2 weeks.", "language": "en", "rating": 2},
+      {"review_id": "P009_r02", "text": "مستشعر الحرارة توقف عن العمل بعد أسبوعين فقط", "language": "ar", "rating": 2},
+      {"review_id": "P009_r03", "text": "Draining takes about 2 minutes not 30 seconds.", "language": "en", "rating": 3},
+      {"review_id": "P009_r04", "text": "Anti-slip base is excellent. Very stable on all surfaces.", "language": "en", "rating": 5},
+      {"review_id": "P009_r05", "text": "Ergonomic shape is perfect for newborns.", "language": "en", "rating": 5},
+      {"review_id": "P009_r06", "text": "حوض ممتاز للمواليد الجدد. الشكل المريح رائع", "language": "ar", "rating": 5},
+      {"review_id": "P009_r07", "text": "Used it until 18 months, works well within the 2-year claim.", "language": "en", "rating": 5},
+      {"review_id": "P009_r08", "text": "Temperature sensor unreliable after first month.", "language": "en", "rating": 3},
+      {"review_id": "P009_r09", "text": "Great tub but drainage is slower than advertised.", "language": "en", "rating": 4},
+      {"review_id": "P009_r10", "text": "Very good overall. Drainage speed is the only inaccuracy.", "language": "en", "rating": 4}
+    ],
+    "qa_pairs": [
+      {"qa_id": "P009_q01", "question": "Is the temperature sensor durable?", "seller_answer": "Built-in temperature sensor for full product life.", "buyer_answer": "Mine stopped working after 2 weeks.", "answers_agree": false},
+      {"qa_id": "P009_q02", "question": "How fast does it drain?", "seller_answer": "Drains in under 30 seconds.", "buyer_answer": "Takes about 2 minutes in my experience.", "answers_agree": false},
+      {"qa_id": "P009_q03", "question": "Is the anti-slip base good?", "seller_answer": "Anti-slip base for maximum safety.", "buyer_answer": "Yes very stable, never slipped.", "answers_agree": true},
+      {"qa_id": "P009_q04", "question": "How long can baby use it?", "seller_answer": "From birth to 2 years.", "buyer_answer": "Used it to 18 months, still working.", "answers_agree": true},
+      {"qa_id": "P009_q05", "question": "What is the capacity?", "seller_answer": "Holds up to 20 liters.", "buyer_answer": "Seems about right, good size.", "answers_agree": true}
+    ],
+    "return_reasons": [
+      "Temperature sensor failure",
+      "Slow drainage"
+    ],
+    "seed_conflicts": [
+      {"field": "temperature_sensor_durability", "description_claim": "built-in temperature sensor", "customer_claim": "sensor stopped working after 2 weeks", "conflict_type": "durability_contradiction"},
+      {"field": "drain_speed", "description_claim": "drains in under 30 seconds", "customer_claim": "takes about 2 minutes to drain", "conflict_type": "factual_contradiction"}
+    ]
+  },
+  {
+    "product_id": "P010",
+    "title_en": "GlowNight Nursery Lamp",
+    "title_ar": "مصباح غرفة الطفل جلو نايت",
+    "data_tier": "rich",
+    "description_en": "Smart nursery lamp with 10 color options and 5 brightness levels. Built-in white noise machine with 8 sounds. Timer function up to 8 hours. Touch sensitive controls. Battery lasts 12 hours or use with included USB cable.",
+    "reviews": [
+      {"review_id": "P010_r01", "text": "Only 6 colors not 10. I tried every setting.", "language": "en", "rating": 3},
+      {"review_id": "P010_r02", "text": "White noise only has 4 sounds not 8 as advertised.", "language": "en", "rating": 3},
+      {"review_id": "P010_r03", "text": "البطارية تدوم حوالي 6 ساعات فقط وليس 12 ساعة", "language": "ar", "rating": 3},
+      {"review_id": "P010_r04", "text": "Battery lasts 6 hours maximum. 12 hours is impossible.", "language": "en", "rating": 2},
+      {"review_id": "P010_r05", "text": "Touch controls are very responsive. Love the interface.", "language": "en", "rating": 5},
+      {"review_id": "P010_r06", "text": "Timer function works perfectly up to 8 hours.", "language": "en", "rating": 5},
+      {"review_id": "P010_r07", "text": "Brightness levels are good. 5 levels confirmed.", "language": "en", "rating": 4},
+      {"review_id": "P010_r08", "text": "USB charging works fine as backup.", "language": "en", "rating": 4},
+      {"review_id": "P010_r09", "text": "Colors are limited but warm tones are lovely for nursery.", "language": "en", "rating": 4},
+      {"review_id": "P010_r10", "text": "Good lamp overall but specs are exaggerated on colors and battery.", "language": "en", "rating": 3}
+    ],
+    "qa_pairs": [
+      {"qa_id": "P010_q01", "question": "How many colors does it have?", "seller_answer": "10 color options available.", "buyer_answer": "Only 6 colors when I tried all settings.", "answers_agree": false},
+      {"qa_id": "P010_q02", "question": "How many white noise sounds?", "seller_answer": "8 built-in white noise sounds.", "buyer_answer": "Only 4 sounds in my unit.", "answers_agree": false},
+      {"qa_id": "P010_q03", "question": "How long does battery last?", "seller_answer": "12 hours battery life.", "buyer_answer": "About 6 hours maximum.", "answers_agree": false},
+      {"qa_id": "P010_q04", "question": "Are touch controls easy to use?", "seller_answer": "Touch sensitive controls.", "buyer_answer": "Yes very responsive and easy.", "answers_agree": true},
+      {"qa_id": "P010_q05", "question": "Does the timer work?", "seller_answer": "Timer up to 8 hours.", "buyer_answer": "Yes timer works perfectly.", "answers_agree": true}
+    ],
+    "return_reasons": [
+      "Fewer colors than advertised",
+      "Battery life much shorter than stated",
+      "Fewer sound options"
+    ],
+    "seed_conflicts": [
+      {"field": "color_count", "description_claim": "10 color options", "customer_claim": "only 6 colors available", "conflict_type": "factual_contradiction"},
+      {"field": "sound_count", "description_claim": "8 white noise sounds", "customer_claim": "only 4 sounds available", "conflict_type": "factual_contradiction"},
+      {"field": "battery_life", "description_claim": "battery lasts 12 hours", "customer_claim": "battery lasts 6 hours maximum", "conflict_type": "factual_contradiction"}
+    ]
+  },
+  {
+    "product_id": "P011",
+    "title_en": "PureAir Baby Room Humidifier",
+    "title_ar": "جهاز ترطيب هواء غرفة الطفل بيور إير",
+    "data_tier": "rich",
+    "description_en": "Ultrasonic cool mist humidifier covers rooms up to 40 square meters. 3.5 liter tank lasts 24 hours on low setting. Ultra-quiet under 30 decibels. Built-in humidity sensor with auto shut-off. 360-degree mist nozzle. Suitable for babies from newborn.",
+    "reviews": [
+      {"review_id": "P011_r01", "text": "Tank lasts maybe 8 hours on low. 24 hours is complete exaggeration.", "language": "en", "rating": 2},
+      {"review_id": "P011_r02", "text": "الخزان يكفي لـ 8 ساعات فقط على أدنى درجة، وليس 24 ساعة", "language": "ar", "rating": 2},
+      {"review_id": "P011_r03", "text": "Not quiet at all on medium or high. Very audible at night.", "language": "en", "rating": 2},
+      {"review_id": "P011_r04", "text": "Does not cover my 35sqm room properly. Maybe good for 20sqm.", "language": "en", "rating": 3},
+      {"review_id": "P011_r05", "text": "Auto shut-off is reliable. Safety feature works great.", "language": "en", "rating": 5},
+      {"review_id": "P011_r06", "text": "Humidity sensor is accurate and responsive.", "language": "en", "rating": 5},
+      {"review_id": "P011_r07", "text": "360 nozzle is great, distributes mist evenly.", "language": "en", "rating": 5},
+      {"review_id": "P011_r08", "text": "Quiet on lowest setting only. Higher settings are loud.", "language": "en", "rating": 3},
+      {"review_id": "P011_r09", "text": "Good humidifier for small rooms. Coverage claim is overstated.", "language": "en", "rating": 4},
+      {"review_id": "P011_r10", "text": "Tank duration is the main issue. Fill it twice a day at minimum.", "language": "en", "rating": 3}
+    ],
+    "qa_pairs": [
+      {"qa_id": "P011_q01", "question": "How long does the tank actually last?", "seller_answer": "24 hours on low setting.", "buyer_answer": "About 8 hours on low in my room.", "answers_agree": false},
+      {"qa_id": "P011_q02", "question": "Is it really quiet?", "seller_answer": "Under 30 decibels, ultra-quiet.", "buyer_answer": "Quiet on lowest only. Medium and high are loud.", "answers_agree": false},
+      {"qa_id": "P011_q03", "question": "What room size does it cover?", "seller_answer": "Up to 40 square meters.", "buyer_answer": "Struggles with my 35sqm room. Better for 20sqm.", "answers_agree": false},
+      {"qa_id": "P011_q04", "question": "Does auto shut-off work?", "seller_answer": "Built-in auto shut-off.", "buyer_answer": "Yes works perfectly every time.", "answers_agree": true},
+      {"qa_id": "P011_q05", "question": "Is it safe from newborn?", "seller_answer": "Suitable from newborn.", "buyer_answer": "Yes using with newborn, no issues.", "answers_agree": true}
+    ],
+    "return_reasons": [
+      "Tank lasts far less than advertised",
+      "Too loud for nursery use",
+      "Insufficient room coverage"
+    ],
+    "seed_conflicts": [
+      {"field": "tank_duration", "description_claim": "3.5 liter tank lasts 24 hours on low", "customer_claim": "tank lasts about 8 hours on low", "conflict_type": "factual_contradiction"},
+      {"field": "noise_level", "description_claim": "ultra-quiet under 30 decibels", "customer_claim": "audible at night on medium and high", "conflict_type": "factual_contradiction"},
+      {"field": "room_coverage", "description_claim": "covers rooms up to 40 square meters", "customer_claim": "struggles with 35sqm room", "conflict_type": "factual_contradiction"}
+    ]
+  },
+  {
+    "product_id": "P012",
+    "title_en": "FlexiCarry Baby Carrier",
+    "title_ar": "حامل الطفل فليكسي كاري",
+    "data_tier": "rich",
+    "description_en": "Ergonomic carrier supports 4 carrying positions. Weight capacity from 3.5kg to 20kg. Lumbar support panel reduces parent back strain. Machine washable at 40 degrees. Suitable from newborn without insert needed.",
+    "reviews": [
+      {"review_id": "P012_r01", "text": "Newborn positioning was unsafe without an insert. Do not use for very young babies.", "language": "en", "rating": 2},
+      {"review_id": "P012_r02", "text": "وضعية حمل المولود الجديد غير آمنة بدون وسادة داخلية إضافية", "language": "ar", "rating": 2},
+      {"review_id": "P012_r03", "text": "Only 3 positions work properly. The 4th feels unsafe.", "language": "en", "rating": 3},
+      {"review_id": "P012_r04", "text": "Lumbar support is genuinely excellent. My back pain disappeared.", "language": "en", "rating": 5},
+      {"review_id": "P012_r05", "text": "دعم أسفل الظهر ممتاز جداً. مريح للغاية للأم", "language": "ar", "rating": 5},
+      {"review_id": "P012_r06", "text": "Machine wash worked fine at 40 degrees. No damage.", "language": "en", "rating": 5},
+      {"review_id": "P012_r07", "text": "Holds my 18kg toddler comfortably. Weight limit seems accurate.", "language": "en", "rating": 5},
+      {"review_id": "P012_r08", "text": "Great for older babies. Would not trust it for newborns.", "language": "en", "rating": 4},
+      {"review_id": "P012_r09", "text": "3 out of 4 positions are great. One position feels unstable.", "language": "en", "rating": 4},
+      {"review_id": "P012_r10", "text": "Excellent carrier for babies over 3 months. Newborn claim is questionable.", "language": "en", "rating": 4}
+    ],
+    "qa_pairs": [
+      {"qa_id": "P012_q01", "question": "Is it truly safe for newborns without insert?", "seller_answer": "Suitable from newborn without insert.", "buyer_answer": "We felt it was unsafe for our newborn without extra support.", "answers_agree": false},
+      {"qa_id": "P012_q02", "question": "Do all 4 positions work safely?", "seller_answer": "4 safe carrying positions.", "buyer_answer": "3 positions are great. The 4th felt unsafe to us.", "answers_agree": false},
+      {"qa_id": "P012_q03", "question": "Is lumbar support good?", "seller_answer": "Lumbar support reduces back strain.", "buyer_answer": "Excellent lumbar support, back pain gone.", "answers_agree": true},
+      {"qa_id": "P012_q04", "question": "Can it be machine washed?", "seller_answer": "Machine washable at 40 degrees.", "buyer_answer": "Yes washed fine at 40 degrees.", "answers_agree": true},
+      {"qa_id": "P012_q05", "question": "What is the weight limit?", "seller_answer": "From 3.5kg to 20kg.", "buyer_answer": "Holding my 18kg toddler fine.", "answers_agree": true}
+    ],
+    "return_reasons": [
+      "Unsafe for newborn without insert",
+      "One carrying position unstable"
+    ],
+    "seed_conflicts": [
+      {"field": "newborn_safety", "description_claim": "suitable from newborn without insert needed", "customer_claim": "unsafe for newborn without insert", "conflict_type": "safety_contradiction"},
+      {"field": "carrying_positions", "description_claim": "supports 4 carrying positions", "customer_claim": "only 3 positions work safely", "conflict_type": "factual_contradiction"}
+    ]
+  },
+  {
+    "product_id": "P013",
+    "title_en": "MiniChef Toddler Utensil Set",
+    "title_ar": "طقم أدوات الطعام للأطفال ميني شيف",
+    "data_tier": "thin",
+    "description_en": "Set of 6 ergonomic utensils designed for self-feeding toddlers. Food-grade stainless steel with silicone handles. Dishwasher safe. BPA and BPS free. Suitable for ages 12 months and above.",
+    "reviews": [
+      {"review_id": "P013_r01", "text": "Good quality cutlery. My toddler loves the handles.", "language": "en", "rating": 5},
+      {"review_id": "P013_r02", "text": "أدوات جيدة ومريحة لليد الصغيرة. جودة ممتازة", "language": "ar", "rating": 5}
+    ],
+    "qa_pairs": [],
+    "return_reasons": [],
+    "seed_conflicts": []
+  },
+  {
+    "product_id": "P014",
+    "title_en": "SoftSole Pre-Walker Baby Shoes",
+    "title_ar": "أحذية الأطفال ما قبل المشي سوفت سول",
+    "data_tier": "thin",
+    "description_en": "Flexible soft sole shoes for pre-walking babies. Anti-slip grip on base. Genuine leather upper. Suitable for ages 6 to 12 months. Available in sizes 1 to 4.",
+    "reviews": [
+      {"review_id": "P014_r01", "text": "Beautiful shoes. Soft and flexible as described.", "language": "en", "rating": 5},
+      {"review_id": "P014_r02", "text": "أحذية جميلة جداً. ناعمة ومريحة للطفل", "language": "ar", "rating": 5}
+    ],
+    "qa_pairs": [],
+    "return_reasons": [],
+    "seed_conflicts": []
+  },
+  {
+    "product_id": "P015",
+    "title_en": "DripFree Silicone Bib Set",
+    "title_ar": "طقم مريلة السيليكون درب فري",
+    "data_tier": "thin",
+    "description_en": "Set of 3 waterproof silicone bibs with deep food catcher pocket. Dishwasher safe. BPA free. Adjustable neck strap fits 6 to 36 months. Rolls up for travel storage.",
+    "reviews": [
+      {"review_id": "P015_r01", "text": "Best bibs I have used. Catches everything and cleans easily.", "language": "en", "rating": 5},
+      {"review_id": "P015_r02", "text": "مريلة ممتازة. تمسك الطعام بشكل رائع ولا تتسرب", "language": "ar", "rating": 5}
+    ],
+    "qa_pairs": [],
+    "return_reasons": [],
+    "seed_conflicts": []
+  },
+  {
+    "product_id": "P016",
+    "title_en": "SleepyTime White Noise Machine",
+    "title_ar": "جهاز الضوضاء البيضاء سليبي تايم",
+    "data_tier": "thin",
+    "description_en": "Portable white noise machine with 20 soothing sounds. Timer options of 30, 60, and 90 minutes. USB and battery powered. Compact travel size. Auto-loop function plays continuously.",
+    "reviews": [
+      {"review_id": "P016_r01", "text": "Works great. Baby sleeps so much better with this.", "language": "en", "rating": 5},
+      {"review_id": "P016_r02", "text": "جهاز رائع لنوم الطفل. يعمل بشكل ممتاز", "language": "ar", "rating": 5}
+    ],
+    "qa_pairs": [],
+    "return_reasons": [],
+    "seed_conflicts": []
+  },
+  {
+    "product_id": "P017",
+    "title_en": "TummyTime Activity Mat",
+    "title_ar": "حصيرة نشاط تامي تايم",
+    "data_tier": "thin",
+    "description_en": "Padded activity mat for tummy time development. 6 attached sensory toys. Foldable for storage. Machine washable cover. Suitable from birth to 12 months.",
+    "reviews": [
+      {"review_id": "P017_r01", "text": "Great mat. Baby loves the hanging toys and colours.", "language": "en", "rating": 5},
+      {"review_id": "P017_r02", "text": "حصيرة رائعة للأطفال. الألعاب المعلقة تجذب انتباه الطفل", "language": "ar", "rating": 5}
+    ],
+    "qa_pairs": [],
+    "return_reasons": [],
+    "seed_conflicts": []
+  },
+  {
+    "product_id": "P018",
+    "title_en": "ClearSip Transition Sippy Cup",
+    "title_ar": "كوب الانتقال للأطفال كلير سيب",
+    "data_tier": "rich",
+    "description_en": "360-degree drinking edge for natural drinking development. Completely leak-proof design. BPA and phthalate free. Dishwasher safe on top rack. Suitable from 6 months. Holds 240ml.",
+    "reviews": [
+      {"review_id": "P018_r01", "text": "It leaks. The 360 design leaks from the seam when tilted.", "language": "en", "rating": 2},
+      {"review_id": "P018_r02", "text": "يتسرب عند الإمالة رغم ادعاء عدم التسرب. مشكلة كبيرة", "language": "ar", "rating": 2},
+      {"review_id": "P018_r03", "text": "Leaks when put in bag. Not leak-proof at all.", "language": "en", "rating": 2},
+      {"review_id": "P018_r04", "text": "360 concept is great when it works. Teaches natural drinking.", "language": "en", "rating": 4},
+      {"review_id": "P018_r05", "text": "BPA free confirmed. Good safe materials.", "language": "en", "rating": 5},
+      {"review_id": "P018_r06", "text": "Dishwasher top rack works fine. Easy to clean.", "language": "en", "rating": 5},
+      {"review_id": "P018_r07", "text": "My 6-month-old figured it out quickly. Great design concept.", "language": "en", "rating": 4},
+      {"review_id": "P018_r08", "text": "Leaks when horizontal in the bag. Not truly leak-proof.", "language": "en", "rating": 3},
+      {"review_id": "P018_r09", "text": "Good cup but the leak-proof claim is inaccurate.", "language": "en", "rating": 3},
+      {"review_id": "P018_r10", "text": "يتسرب في الحقيبة. مفهوم جيد لكن ادعاء عدم التسرب غير صحيح", "language": "ar", "rating": 2}
+    ],
+    "qa_pairs": [
+      {"qa_id": "P018_q01", "question": "Is it truly leak-proof?", "seller_answer": "Completely leak-proof design guaranteed.", "buyer_answer": "No it leaks from the seam when tilted or in bag.", "answers_agree": false},
+      {"qa_id": "P018_q02", "question": "Does the 360 degree design work?", "seller_answer": "Yes 360-degree natural drinking edge.", "buyer_answer": "Concept is great but leaks are a problem.", "answers_agree": false},
+      {"qa_id": "P018_q03", "question": "Is it BPA free?", "seller_answer": "BPA and phthalate free.", "buyer_answer": "Yes confirmed safe materials.", "answers_agree": true},
+      {"qa_id": "P018_q04", "question": "Dishwasher safe?", "seller_answer": "Top rack dishwasher safe.", "buyer_answer": "Yes top rack works fine.", "answers_agree": true},
+      {"qa_id": "P018_q05", "question": "From what age?", "seller_answer": "Suitable from 6 months.", "buyer_answer": "My 6-month-old uses it fine.", "answers_agree": true}
+    ],
+    "return_reasons": [
+      "Leaks despite leak-proof claim",
+      "Spills in bag"
+    ],
+    "seed_conflicts": [
+      {"field": "leak_proof", "description_claim": "completely leak-proof design", "customer_claim": "leaks from seam when tilted", "conflict_type": "factual_contradiction"}
+    ]
+  },
+  {
+    "product_id": "P019",
+    "title_en": "CozyNest Portable Travel Cot",
+    "title_ar": "سرير السفر المحمول كوزي نيست",
+    "data_tier": "rich",
+    "description_en": "Lightweight travel cot at only 5kg. Sets up in under 60 seconds. Fits in overhead airplane cabin compartment. Suitable for ages 0 to 3 years. Water-resistant mattress pad included.",
+    "reviews": [
+      {"review_id": "P019_r01", "text": "This is not 5kg. I weighed it and it was 8.5kg.", "language": "en", "rating": 2},
+      {"review_id": "P019_r02", "text": "وزنه 8.5 كيلو وليس 5 كيلو كما هو مذكور. ثقيل للسفر", "language": "ar", "rating": 2},
+      {"review_id": "P019_r03", "text": "Does not fit in overhead compartment. Way too bulky.", "language": "en", "rating": 1},
+      {"review_id": "P019_r04", "text": "Setup takes about 3 minutes not 60 seconds.", "language": "en", "rating": 3},
+      {"review_id": "P019_r05", "text": "My 3-year-old is already too big for this.", "language": "en", "rating": 3},
+      {"review_id": "P019_r06", "text": "Water-resistant mattress pad works well, easy to wipe.", "language": "en", "rating": 5},
+      {"review_id": "P019_r07", "text": "Sturdy construction. Baby sleeps safely in it.", "language": "en", "rating": 4},
+      {"review_id": "P019_r08", "text": "Good cot but weight and size claims are very wrong.", "language": "en", "rating": 3},
+      {"review_id": "P019_r09", "text": "لا يناسب خزانة الطائرة أبداً. حجمه أكبر بكثير مما هو موصوف", "language": "ar", "rating": 2},
+      {"review_id": "P019_r10", "text": "Setup is not 60 seconds. Closer to 3 to 4 minutes.", "language": "en", "rating": 3}
+    ],
+    "qa_pairs": [
+      {"qa_id": "P019_q01", "question": "What is the actual weight?", "seller_answer": "Only 5kg.", "buyer_answer": "I weighed mine at 8.5kg.", "answers_agree": false},
+      {"qa_id": "P019_q02", "question": "Does it fit in airplane overhead?", "seller_answer": "Yes fits in overhead cabin compartment.", "buyer_answer": "Absolutely does not fit. Too bulky.", "answers_agree": false},
+      {"qa_id": "P019_q03", "question": "How long to set up?", "seller_answer": "Under 60 seconds.", "buyer_answer": "About 3 to 4 minutes.", "answers_agree": false},
+      {"qa_id": "P019_q04", "question": "Is the mattress waterproof?", "seller_answer": "Water-resistant mattress pad included.", "buyer_answer": "Yes wipes clean easily.", "answers_agree": true},
+      {"qa_id": "P019_q05", "question": "Age range?", "seller_answer": "Ages 0 to 3 years.", "buyer_answer": "My 3-year-old was already too big.", "answers_agree": false}
+    ],
+    "return_reasons": [
+      "Much heavier than advertised",
+      "Does not fit airplane overhead",
+      "Setup much slower than claimed"
+    ],
+    "seed_conflicts": [
+      {"field": "weight", "description_claim": "lightweight at only 5kg", "customer_claim": "weighed 8.5kg at home", "conflict_type": "factual_contradiction"},
+      {"field": "airplane_compatibility", "description_claim": "fits in overhead airplane cabin compartment", "customer_claim": "does not fit, way too bulky", "conflict_type": "factual_contradiction"},
+      {"field": "setup_time", "description_claim": "sets up in under 60 seconds", "customer_claim": "takes 3 to 4 minutes to set up", "conflict_type": "factual_contradiction"}
+    ]
+  },
+  {
+    "product_id": "P020",
+    "title_en": "SafeBite Silicone Teether Ring",
+    "title_ar": "حلقة التسنين السيليكون سيف بايت",
+    "data_tier": "rich",
+    "description_en": "100% food-grade silicone teether. Freezer safe for soothing cold relief. BPA, BPS, and phthalate free. One-piece design with no removable parts. Suitable from 3 months. Easy to grip for small hands.",
+    "reviews": [
+      {"review_id": "P020_r01", "text": "Great teether. Baby loves it from 3 months as stated.", "language": "en", "rating": 5},
+      {"review_id": "P020_r02", "text": "حلقة تسنين ممتازة. آمنة تماماً وطفلتي تحبها", "language": "ar", "rating": 5},
+      {"review_id": "P020_r03", "text": "Food-grade silicone confirmed. No smell, no leaching.", "language": "en", "rating": 5},
+      {"review_id": "P020_r04", "text": "Freezer use works well. Good cold relief for teething baby.", "language": "en", "rating": 5},
+      {"review_id": "P020_r05", "text": "One-piece design is reassuring. Nothing can come loose.", "language": "en", "rating": 5},
+      {"review_id": "P020_r06", "text": "تصميم قطعة واحدة آمن جداً. لا توجد أجزاء قابلة للفصل", "language": "ar", "rating": 5},
+      {"review_id": "P020_r07", "text": "Easy for my 4-month-old to grip. Good size.", "language": "en", "rating": 5},
+      {"review_id": "P020_r08", "text": "All safety claims check out. Very happy with this.", "language": "en", "rating": 5},
+      {"review_id": "P020_r09", "text": "Perfect teether. Meets all the claims in the description.", "language": "en", "rating": 5},
+      {"review_id": "P020_r10", "text": "Bought 3 of these. Best teether for the price.", "language": "en", "rating": 5}
+    ],
+    "qa_pairs": [
+      {"qa_id": "P020_q01", "question": "Is it truly food-grade silicone?", "seller_answer": "100% food-grade silicone.", "buyer_answer": "Yes confirmed, no smell or taste.", "answers_agree": true},
+      {"qa_id": "P020_q02", "question": "Can it go in the freezer?", "seller_answer": "Yes freezer safe.", "buyer_answer": "Yes works great frozen.", "answers_agree": true},
+      {"qa_id": "P020_q03", "question": "Any removable parts?", "seller_answer": "One-piece, no removable parts.", "buyer_answer": "Correct, solid one piece.", "answers_agree": true},
+      {"qa_id": "P020_q04", "question": "From what age?", "seller_answer": "From 3 months.", "buyer_answer": "My 3-month-old used it fine.", "answers_agree": true},
+      {"qa_id": "P020_q05", "question": "Is it BPA free?", "seller_answer": "BPA, BPS, phthalate free.", "buyer_answer": "Yes all safety certifications in order.", "answers_agree": true}
+    ],
+    "return_reasons": [],
+    "seed_conflicts": []
+  }
+]
